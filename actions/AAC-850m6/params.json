@@ -1,0 +1,174 @@
+{
+    "category": "data (things)",
+    "display": "generate random data",
+    "fields": {
+        "AAI": {
+            "caption": "gender",
+            "doc": "The optional gender to use. Can be either 'female' or 'male'. ",
+            "editor": "DynamicValue",
+            "name": "gender",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "binary",
+            "default_val": false,
+            "doc": "Whether to return only binary gender names. ",
+            "editor": "Checkbox",
+            "name": "binary",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAf": {
+            "caption": "language",
+            "default_val": "en",
+            "editor": "Dropdown",
+            "name": "language",
+            "options": "ar,de,en,es,fa,fr,it,ja,ko,nl,ru,tr,vi,zh_CN",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "AAD": {
+            "caption": "full name",
+            "name": "fullname",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "gender",
+            "name": "gender",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "job area",
+            "name": "jobarea",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "job descriptor",
+            "name": "jobdescriptor",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "first name",
+            "name": "firstname",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "job title",
+            "name": "jobtitle",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "job type",
+            "name": "jobtype",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "last name",
+            "name": "lastname",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "middle name",
+            "name": "middlename",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "name prefix",
+            "name": "prefix",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "name suffix",
+            "name": "suffix",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "job title",
+            "name": "title",
+            "rank": 11,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "country name",
+            "name": "country",
+            "rank": 12,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "city name",
+            "name": "city",
+            "rank": 13,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "street address",
+            "name": "address",
+            "rank": 14,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "time zone",
+            "name": "timezone",
+            "rank": 15,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "zip code",
+            "name": "zipcode",
+            "rank": 16,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "avatar",
+            "name": "avatar",
+            "rank": 17,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "website",
+            "name": "website",
+            "rank": 18,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "email",
+            "name": "email",
+            "rank": 19,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "ip",
+            "name": "ip",
+            "rank": 20,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "password",
+            "name": "password",
+            "rank": 21,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "username",
+            "name": "username",
+            "rank": 22,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

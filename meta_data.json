@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "productivity",
+        "2": "mobile",
+        "3": "internationalization"
+    },
+    "description": "generate random data such as user data (first name, last name, full name, job title, email, username, avatar ... ), address (street address, city, country, zipcode ... ) and more.\n\nwith Faker you can generate massive amounts of fake (but realistic with different languages) data for testing and development. this plugins is a wrapper for faker to generate random data.\n\nrandom fake data",
+    "image": "//meta-q.cdn.bubble.io/f1724078639360x285210183202678980/Animation%20-%201724078582014.gif",
+    "license": "open_source",
+    "name": "Random Data Generator",
+    "sa_node_version": 18
+}
